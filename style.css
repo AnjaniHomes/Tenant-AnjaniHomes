@@ -53,18 +53,24 @@
       width: auto;
       height: 120px;
     }
+    .modaldra1 p{
+      font-size: 20px;
+    }
     .modaldra1 h2{
   color:red;
+font-weight: bold;
     }
   
     #closemodaldra1 {
+      margin-top: 10px;
       font-size: 18px;
+      /* padding: 4px; */
       letter-spacing: 2px;
       text-transform: uppercase;
       display: inline-block;
       text-align: center;
       font-weight: bold;
-      /* padding: 0.7em 2em; */
+      padding: 0.2em;
       border: 3px solid red;
       border-radius: 2px;
       position: relative;
