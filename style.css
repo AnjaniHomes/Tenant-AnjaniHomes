@@ -26,6 +26,12 @@
 
 
 
+    /* unpaid text */
+    .unpaid{
+      color: red;
+      font-style: italic;
+    }
+
 /* modal */
     /* Style for the modaldra1 overlay */
     .modaldra1 {
