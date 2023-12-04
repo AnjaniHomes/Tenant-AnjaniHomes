@@ -78,25 +78,11 @@
             <p class="mt-6 text-lg leading-8 text-gray-600">Monthly Rent: 4500</p>
             <p class="mt-6 text-lg leading-8 text-gray-600">Electricity Unit: 10 per unit</p>
             <p class="mt-6 text-lg leading-8 text-gray-600">Previous Electricity Unit: 1860</p>
-            <!-- <p class="mt-6 text-lg leading-8 text-gray-600">Next Bill date 5 <script>const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];const currentDate = new Date();const currentYear = currentDate.getFullYear();const currentMonth = months[currentDate.getMonth()];document.write(currentMonth + " " + currentYear);</script>
-            </p> -->
-            <p class="mt-6 text-lg leading-8 text-gray-600">Paid for November 2023
-              <!-- <script>
-              const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-              const currentDate = new Date();
-              const currentYear = currentDate.getFullYear();
-              let currentMonth = months[currentDate.getMonth()];
-              // Check if it's past the 1th day of the current month
-              if (currentDate.getDate() > 1) {
-                // Increment the month index and handle the wrap-around to January of the next year
-                currentMonth = months[(currentDate.getMonth() + 1) % 12];
-                if (currentDate.getMonth() === 11) {
-                  currentYear += 1;
-                }
-              }
-              document.write(currentMonth + " " + currentYear);
-            </script> -->
             </p>
+
+            <p class="mt-6 text-lg leading-8 text-gray-600">Paid for November & December 2023
+            </p>
+
             <div class="mt-10 flex items-center justify-center gap-x-6">
               <a href="index.html"
                 class="rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">&#x2190;
@@ -128,8 +114,8 @@
           <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Rent Calculator</h2>
 
           <div class="relative mb-4">
-            <label for="previousUnit" class="leading-7 text-sm text-gray-600">Previous Unit</label>
-            <input type="number" id="previousUnit" placeholder="Enter Previous Electricity Unit" required
+            <label for="previousUnit" class="leading-7 text-sm text-gray-600">Paid Electricity Unit</label>
+            <input type="number" id="previousUnit" placeholder="Enter Paid Electricity Unit" required
               class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               value="1860">
           </div>
@@ -182,10 +168,19 @@
         <tr style="color: black; font-weight: 800;">
           <td>Month</td>
           <td>Paid On</td>
-          <td>Prev. Unit</td>
+          <td>Paid. Unit</td>
           <td>Curr. Unit</td>
           <td>Total Rent</td>
         </tr>
+
+        <tr>
+          <td>December</td>
+          <td>02/11/2023</td>
+          <td>1860</td>
+          <td>----</td>
+          <td>4500**</td>
+        </tr>
+
         <tr>
           <td>November</td>
           <td>02/11/2023</td>
@@ -193,6 +188,7 @@
           <td>----</td>
           <td>4500**</td>
         </tr>
+
       </table>
     </div>
     <footer class="text-gray-600 body-font">
