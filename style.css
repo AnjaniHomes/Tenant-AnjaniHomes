@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bungee+Spice&family=Dancing+Script&family=Merriweather&family=Roboto:wght@400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Monoton&display=swap');
 
 
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Alata', sans-serif;
   /* overflow: hidden; */
 }
 
