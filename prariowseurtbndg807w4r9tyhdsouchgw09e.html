@@ -75,7 +75,7 @@
                 } document.write(greeting);</script>
               Pramit
             </h1>
-            <p class="mt-6 text-lg leading-8 text-gray-600">Monthly Rent: 5000</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">Monthly Rent: 5000 ONLY</p>
             <p class="mt-6 text-lg leading-8 text-gray-600">Security Deposit: 3000</p>
             <p class="mt-6 text-lg leading-8 text-gray-600">Electricity Unit: 10 per unit</p>
             <p class="mt-6 text-lg leading-8 text-gray-600">if Units > 100 then: 11 per unit</p>
@@ -147,6 +147,10 @@
         <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p> -->
           <button id="calculateButton" class="btn">Calculate</button>
           <p id="result" style="display: none;"></p>
+          <p id="resultrent" style="display: none;"></p>
+          <p id="resulteleused" style="display: none;"></p>
+          <p id="resultelebill" style="display: none;"></p>
+          <p id="resulttotal" style="display: none; font-weight: bold;"></p>
         </div>
       </div>
     </section>
@@ -275,14 +279,29 @@
 
         const rent = 5000;
         let unit = 10;
+        const tunits= currentUnit - previousUnit;
+
         if (currentUnit - previousUnit > 100) {
             unit = 11; 
         }
         // const unit = 10;
         const bill = (currentUnit - previousUnit) * unit;
-        result.style.display = 'block';
-        result.style.color = 'green';
-        result.textContent = `Monthly Rent: ₹${rent}, Electricity Bill: ₹${bill}, Total Rent: ₹${rent + bill}`;
+        resultrent.style.display = 'block';
+        resultrent.style.color = 'green';
+        resultrent.textContent = `Monthly Rent: ₹${rent}`;
+
+        resulteleused.style.display = 'block';
+        resulteleused.style.color = 'green';
+        resulteleused.textContent = `Electricity Units Used:${tunits}`;
+
+        resultelebill.style.display = 'block';
+        resultelebill.style.color = 'green';
+        resultelebill.textContent = `Electricity Bill:${bill}`;
+
+        resulttotal.style.display = 'block';
+        resulttotal.style.color = 'green';
+        resulttotal.textContent = `Total Rent: ₹${rent + bill} ONLY`;
+
       });
     </script>
     <script src="script.js"></script>
