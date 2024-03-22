@@ -152,11 +152,11 @@ td {
   display: inline-block;
   border-radius: 6em;
   transition: all .2s;
-  border: 2px solid black;
+  border: 3px solid white;
   font-family: inherit;
   font-weight: 500;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #FF6601;
 }
 
 .btn:hover {
