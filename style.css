@@ -58,8 +58,9 @@
 .modaldra1-content {
   background-color: white;
   width: 70%;
-  max-width: 400px;
+  max-width: 600px;
   margin: 100px auto;
+  margin-top: 10rem;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -69,10 +70,11 @@
 .modaldra1 img {
   width: auto;
   height: 120px;
+  float: left;
 }
 
 .modaldra1 p {
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .modaldra1 h2 {
@@ -83,7 +85,7 @@
 #closemodaldra1 {
   margin-top: 10px;
   font-size: 18px;
-  /* padding: 4px; */
+  padding: 4px;
   letter-spacing: 2px;
   text-transform: uppercase;
   display: inline-block;
