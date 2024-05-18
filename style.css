@@ -43,8 +43,8 @@
 }
 
 /* modal */
-/* Style for the modaldra1 overlay */
-.modaldra1 {
+/* Style for the modal overlay */
+.modal {
   display: none;
   position: fixed;
   top: 0;
@@ -54,36 +54,36 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Style for the modaldra1 content */
-.modaldra1-content {
+/* Style for the modal content */
+.modal-content {
   background-color: white;
   width: 70%;
   max-width: 600px;
   margin: 100px auto;
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   position: relative;
 }
 
-.modaldra1 img {
+.modal img {
   width: auto;
   height: 120px;
   float: left;
 }
 
-.modaldra1 p {
+.modal p {
   font-size: 1rem;
   margin-top: 10px;
 }
 
-.modaldra1 h2 {
+.modal h2 {
   color: red;
   font-weight: bold;
 }
 
-#closemodaldra1 {
+#closemodal {
   margin-top: 10px;
   font-size: 18px;
   padding: 4px;
@@ -103,7 +103,7 @@
   z-index: 1;
 }
 
-#closemodaldra1:before {
+#closemodal:before {
   transition: 0.5s all ease;
   position: absolute;
   top: 0;
@@ -116,20 +116,20 @@
   z-index: -1;
 }
 
-#closemodaldra1:hover,
-#closemodaldra1:focus {
+#closemodal:hover,
+#closemodal:focus {
   color: white;
 }
 
-#closemodaldra1:hover:before,
-#closemodaldra1:focus:before {
+#closemodal:hover:before,
+#closemodal:focus:before {
   transition: 0.5s all ease;
   left: 0;
   right: 0;
   opacity: 1;
 }
 
-#closemodaldra1:active {
+#closemodal:active {
   transform: scale(0.9);
 }
 
