@@ -321,19 +321,19 @@
         const bill = (currentUnit - previousUnit) * unit;
         resultrent.style.display = 'block';
         resultrent.style.color = 'green';
-        resultrent.textContent = `Monthly Rent: ₹${rent}`;
+        resultrent.textContent = `Monthly Rent : ₹${rent}`;
 
         resulteleused.style.display = 'block';
         resulteleused.style.color = 'green';
-        resulteleused.textContent = `Electricity Units Used:${tunits}`;
+        resulteleused.textContent = `Electricity Units Used : ${tunits}`;
 
         resultelebill.style.display = 'block';
         resultelebill.style.color = 'green';
-        resultelebill.textContent = `Electricity Bill:${bill}`;
+        resultelebill.textContent = `Electricity Bill : ${bill}`;
 
         resulttotal.style.display = 'block';
         resulttotal.style.color = 'green';
-        resulttotal.textContent = `Total Rent: ₹${rent + bill} ONLY`;
+        resulttotal.textContent = `Total Rent : ₹${rent + bill} ONLY`;
 
       });
     </script>
