@@ -1,13 +1,13 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Monoton&display=swap');
 
 
 
 * {
   font-family: 'Alata', sans-serif;
-  overflow: hidden;
-}  */
+  /* overflow: hidden; */
+} 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap'); */
 
 /* .poppins-regular-italic {
   font-family: "Poppins", sans-serif;
@@ -23,12 +23,12 @@
 } */
 
 
-* {
+/* * {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: italic;
-  /* overflow: hidden; */
-}
+} */
+/* overflow: hidden; */
 
 #preloader {
   height: 100%;
@@ -215,4 +215,115 @@ td {
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
+}
+
+
+
+.anjaniborder{
+  border: 2px solid #FF6601;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10rem;
+  transition: all 0.02s;
+  font-weight: bold;
+  color: #FF6601;
+  z-index: 0;
+  box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+  background: rgb(193, 228, 248);
+  color: rgb(0, 85, 61);
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.hoverEffect {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.hoverEffect div {
+  background: rgb(111,207,151);
+  background: linear-gradient(90deg, rgba(111,207,151,1) 0%, rgba(65,159,106,1) 49%, rgba(51,153,104,1) 100%);
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  transition: 0.4s;
+  filter: blur(20px);
+  animation: effect infinite 3s linear;
+  opacity: 0.7;
+}
+
+.button:hover .hoverEffect div {
+  background: #439f46;
+}
+
+@keyframes effect {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
