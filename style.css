@@ -170,7 +170,7 @@ td {
 }
 
 .btn {
-  width: 140px;
+  width: 136px;
   height: 50px;
   background: linear-gradient(to top, #5eae63, #429f47, #51a454);
   /* background: linear-gradient(to top, #ea5f02, #FF6601, #d85700); */
@@ -186,10 +186,10 @@ td {
 }
 
 .btn span {
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: top 0.5s;
+  transition: top 0.3s;
 }
 
 .btn-text-one {
