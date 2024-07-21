@@ -174,16 +174,16 @@ td {
 .btn {
   width: 136px;
   height: 50px;
-  background: linear-gradient(to top, #5eae63, #429f47, #51a454);
+  /* background: linear-gradient(to top, #5eae63, #429f47, #51a454); */
   /* background: linear-gradient(to top, #ea5f02, #FF6601, #d85700); */
-  /* background: linear-gradient(to top, #00154c, #12376e, #23487f); */
+  background: linear-gradient(to top, #00154c, #12376e, #23487f);
   color: #fff;
   border-radius: 50px;
   border: none;
   outline: none;
   cursor: pointer;
   position: relative;
-  box-shadow: 0 15px 30px #a94400;
+  box-shadow: 0 15px 30px #FF6601;
   overflow: hidden;
 }
 
