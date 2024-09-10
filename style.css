@@ -176,14 +176,17 @@ td {
   height: 50px;
   /* background: linear-gradient(to top, #5eae63, #429f47, #51a454); */
   /* background: linear-gradient(to top, #ea5f02, #FF6601, #d85700); */
-  background: linear-gradient(to top, #00154c, #12376e, #23487f);
-  color: #fff;
+  /* background: linear-gradient(to top, #00154c, #12376e, #23487f); */
+  /* background-color: #1ca3ff; */
+  background-color: #FF6601;
+  color: white;
   border-radius: 50px;
   border: none;
   outline: none;
   cursor: pointer;
   position: relative;
-  box-shadow: 0 15px 30px #FF6601;
+  font-style: bold;
+  /* box-shadow: 0 15px 30px green; */
   overflow: hidden;
 }
 
