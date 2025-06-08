@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pramit Rathore | 1 BHK(400 sqft aprx*) | Anjani Homes</title>
+  <title>Aartee Khatarkar | 1 BHK(400 sqft aprx*) | Anjani Homes</title>
   <link rel="shortcut icon" href="logo.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -63,7 +63,7 @@
             } else {
               greeting = "Good evening";
             } document.write(greeting);</script>
-          Jeetu
+          Aartee
         </h2>
         <p class="mt-6 text-lg leading-8 text-gray-300"></p>
       </div>
@@ -93,7 +93,7 @@
           </div>
           <div class="flex flex-col-reverse">
             <dt class="text-base leading-7 text-black">Next Rent Date</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-black">1
+            <dd class="text-2xl font-bold leading-9 tracking-tight text-black">06
               <script>
                 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
                 const currentDate = new Date();
@@ -101,7 +101,7 @@
                 let currentMonth = months[currentDate.getMonth()];
 
                 // Check if it's past the 1st day of the current month or it's December
-                if (currentDate.getDate() > 1) {
+                if (currentDate.getDate() > 6) {
                   // Increment the month index and handle the wrap-around to January of the next year
                   currentMonth = months[(currentDate.getMonth() + 1) % 12];
                   if (currentDate.getMonth() === 11) {
@@ -143,7 +143,7 @@
             calculate the rent for you.</p>
         </div>
         <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-          <h2 class="text-gray-900 text-lg font-medium title-font mb-5"><img width="50px" src="logo-transparent.png" alt="logo">Pramit Rathore</h2>
+          <h2 class="text-gray-900 text-lg font-medium title-font mb-5"><img width="50px" src="logo-transparent.png" alt="logo">Aartee Khatarkar</h2>
 
           <div class="relative mb-4">
             <label for="previousUnit" class="leading-7 text-sm text-gray-600">Paid/Previous Electricity Unit</label>
@@ -289,9 +289,9 @@
         let unit = 11;
         const tunits = currentUnit - previousUnit;
 
-        if (currentUnit - previousUnit > 100) {
-          unit = 12;
-        }
+        // if (currentUnit - previousUnit > 100) {
+        //   unit = 12;
+        // }
         // const unit = 10;
         const bill = (currentUnit - previousUnit) * unit;
         resultrent.style.display = 'block';
