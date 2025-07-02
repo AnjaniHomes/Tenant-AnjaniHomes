@@ -93,7 +93,7 @@
           </div>
           <div class="flex flex-col-reverse">
             <dt class="text-base leading-7 text-black">Next Rent Date</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-black">06
+            <dd class="text-2xl font-bold leading-9 tracking-tight text-black">01
               <script>
                 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
                 const currentDate = new Date();
@@ -101,7 +101,7 @@
                 let currentMonth = months[currentDate.getMonth()];
 
                 // Check if it's past the 1st day of the current month or it's December
-                if (currentDate.getDate() > 6) {
+                if (currentDate.getDate() > 1) {
                   // Increment the month index and handle the wrap-around to January of the next year
                   currentMonth = months[(currentDate.getMonth() + 1) % 12];
                   if (currentDate.getMonth() === 11) {
