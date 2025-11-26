@@ -143,7 +143,7 @@
             calculate the rent for you.</p>
         </div>
         <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-          <h2 class="text-gray-900 text-lg font-medium title-font mb-5"><img width="50px" src="Images/logo-transparent.png" alt="logo">Nilam + Upendra<img style="width: 50px; float: right;" src="Images/UPI.png" alt="symbol"></h2>
+          <h2 class="text-gray-900 text-lg font-medium title-font mb-5"><img width="50px" src="Images/logo-transparent.png" alt="logo">Nilam + Upendra | <span id="today"></span><img style="width: 50px; float: right;" src="Images/UPI.png" alt="symbol"></h2>
 
           <div class="relative mb-4">
             <label for="previousUnit" class="leading-7 text-sm text-gray-600 font-bold tracking-wide">Paid/Previous Electricity Unit</label>
@@ -251,9 +251,9 @@
         let unit = 11;
         const tunits = currentUnit - previousUnit;
 
-        // if (currentUnit - previousUnit > 100) {
-        //   unit = 12;
-        // }
+        if (currentUnit - previousUnit > 100) {
+          unit = 12;
+        }
         // const unit = 10;
         const bill = (currentUnit - previousUnit) * unit;
         resultrent.style.display = 'block';
@@ -274,6 +274,13 @@
 
       });
     </script>
+<script>
+  const d = new Date();
+  const day = d.getDate();
+  const month = d.toLocaleString('en-UK', { month: 'long' });
+  const year = d.getFullYear();
+  document.getElementById('today').textContent = `${day} ${month} ${year}`;
+</script>
     <script src="script.js"></script>
   </div>
 </body>
