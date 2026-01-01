@@ -1,35 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Monoton&display=swap');
-
-
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Monoton&display=swap');
 
 * {
   font-family: 'Alata', sans-serif;
-  /* overflow: hidden; */
-} 
-
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap'); */
-
-/* .poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-} */
-
-/* .poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-weight: 400;
-  font-style: italic;
-} */
-
-
-/* * {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-} */
+}  */
 /* overflow: hidden; */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Manrope:wght@200..800&display=swap');
 
+.alata-regular {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.manrope{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+*{
+  font-family: "Alata", sans-serif;
+}
+
+.sub-text{
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
 #preloader {
   height: 100%;
   width: 100%;
