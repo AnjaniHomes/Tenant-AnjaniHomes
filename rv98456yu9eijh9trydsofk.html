@@ -155,8 +155,7 @@
           </div>
 
           <div class="relative mb-4">
-            <label for="currentUnit" class="leading-7 text-sm text-gray-600 font-bold tracking-wide">Current Unit (To verify, Check Sub-Meter
-              2)</label>
+            <label for="currentUnit" class="leading-7 text-sm text-gray-600 font-bold tracking-wide">Current Unit (To verify, Check The IMG Provided)</label>
             <input type="number" id="currentUnit" placeholder="Enter Current Electricity Unit" required
               class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
           </div>
@@ -277,9 +276,9 @@
         let unit = 11;
         const tunits = currentUnit - previousUnit;
 
-        if (currentUnit - previousUnit > 100) {
-          unit = 12;
-        }
+        // if (currentUnit - previousUnit > 100) {
+        //   unit = 12;
+        // }
         // const unit = 10;
         const bill = (currentUnit - previousUnit) * unit;
         resultrent.style.display = 'block';
