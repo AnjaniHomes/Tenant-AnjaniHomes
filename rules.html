@@ -2,261 +2,317 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tenant Login | Anjani Homes | Dev Ealiya</title>
-    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script>
-        window.onload = function () {
-            document.getElementById('preloader').style.display = "none";
-            document.getElementById('fullpagecontent').style.display = "block";
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rules To Follow | Anjani Homes | Dev Ealiya</title>
+  <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script>
+    window.onload = function () {
+      document.getElementById('preloader').style.display = "none";
+      document.getElementById('fullpagecontent').style.display = "block";
+    }
     </script>
 </head>
 
 <body>
-    <div id="preloader">
-        <img src="Images/loader.gif" alt="loader">
+  <div id="preloader">
+    <img src="Images/loader.gif" alt="loader">
+  </div>
+  
+  <!-- this is loader div for content -->
+  <!-- <div id="fullpagecontent">
+
+    <div id="welcomemodal" class="modal">
+      <div class="modal-content">
+        <img src="imp-message.webp" alt="disclaimer">
+        <h2>Important Message</h2>
+        <p class="unpaid"><strong>* Monu Pawar Unpaid Rent August 2024</strong></p>
+        <button id="closemodal">Close</button>
+      </div>
+    </div> -->
+   <!-- Orange Glow Background -->
+  <div class="fixed inset-0 -z-10 overflow-hidden">
+    <div class="absolute top-20 left-10 w-[500px] h-[500px] bg-orange-600 rounded-full blur-[160px] opacity-40"></div>
+    <div class="absolute bottom-10 right-10 w-[500px] h-[500px] bg-orange-600 rounded-full blur-[180px] opacity-30">
     </div>
-    <!-- this is loader div for content -->
-    <div id="fullpagecontent">
+    <div
+      class="absolute top-1/2 left-1/2 w-[400px] h-[400px] bg-orange-600 rounded-full blur-[200px] opacity-20 -translate-x-1/2 -translate-y-1/2">
+    </div>
+  </div>
 
-        <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-            aria-hidden="true">
-            <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fe6701] to-[#fe6701] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-                style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-            </div>
-        </div>
+    <!-- <div
+      class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+      aria-hidden="true">
+      <div
+        class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#fe6701] to-[#fe6701] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+      </div>
+    </div> -->
 
-        <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-            aria-hidden="true">
-            <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#fe6701] to-[#fe6701] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-                style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-            </div>
-        </div>
-
-
-        <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
-            <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-                <header class="mb-4 flex items-center justify-between py-4 md:py-8">
-                    <!-- logo - start -->
-          <a href="#" class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl"
+    <div class="pb-6 sm:pb-8 lg:pb-12">
+      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <header class="mb-4 flex items-center justify-between py-4 md:py-8">
+          <!-- logo - start -->
+          <a href="index.html" class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl"
             aria-label="logo">
             <img width="70rem" src="Images/logo-transparent.png" alt="logo-anjani-homes">Anjani Homes
           </a>
-                    <!-- logo - end -->
-                    <!-- buttons - start -->
-                    <nav class="hidden gap-12 lg:flex">
-                        <a href="#" class="text-lg font-semibold text-orange-600"><i class="fa-solid fa-file"></i> Rules to Follow
+          <!-- logo - end -->
+          <!-- buttons - start -->
+          <nav class="hidden gap-12 lg:flex">
+            <a href="index.html" class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i class="fa-solid fa-house"></i> Home</a>
 
-                            <a href="index.html"
-                                class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
-                                    class="fa-solid fa-house"></i> Home</a>
+            <a href="#"
+              class="text-lg font-semibold text-orange-600"><i
+                class="fa-solid fa-file"></i> Rules to Follow</a>
 
-                            <a href="tel:+919907753379"
-                                class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
-                                    class="fa-solid fa-phone"></i> +91 9907753379</a>
+            <a href="tel:+919907753379"
+              class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
+                class="fa-solid fa-phone"></i> +91 9907753379</a>
 
-                            <a download="Anjani Homes Dev Ealiya" href="app-debug.apk"
-                                class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
-                                    class="fa-solid fa-download"></i> Download App <i
-                                    class="fa-brands fa-android"></i></a>
+            <a download="Anjani Homes Dev Ealiya" href="app-debug.apk"
+              class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
+                class="fa-solid fa-download"></i> Download App <i class="fa-brands fa-android"></i></a>
 
-                            <a href="https://tenant-anjanihomes.great-site.net" target="_blank"
-                                class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
-                                    class="fa-solid fa-globe"></i> Website</a>
-                    </nav>
+            <a href="https://tenant-anjanihomes.great-site.net" target="_blank"
+              class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
+                class="fa-solid fa-globe"></i> Website</a>
+          </nav>
 
-                    <a href="payrent.html" class="hidden sm:block">
-                        <button class="btn">
-                            <span class="btn-text-one"><i class="fa-solid fa-indian-rupee-sign"></i> Pay Rent</span>
-                            <span class="btn-text-two">Great!</span>
-                        </button>
-                    </a>
-                    <!-- <a href="#" class="hidden rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block">Contact Sales</a> -->
+          <a href="payrent.html" class="hidden sm:block">
+            <button class="btn">
+              <span class="btn-text-one"><i class="fa-solid fa-indian-rupee-sign"></i> Pay Rent</span>
+              <span class="btn-text-two">Great!</span>
+            </button>
+          </a>
 
-                    <!-- <button type="button" class="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-                        </div>
-                            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
-                        </svg>
-                        
-                        Menu
-                    </button> -->
+          <button id="menuButton" type="button"
+            class="inline-flex items-center gap-2 rounded-lg bg-orange-600 px-2.5 py-2 text-sm font-semibold text-white ring-indigo-300 focus-visible:ring active:text-white md:text-base lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
 
-                    <button id="menuButton" type="button"
-                        class="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                                clip-rule="evenodd" />
-                        </svg>
-                        Menu
-                    </button>
+          <nav id="mainNav"
+            class="absolute top-14 w-full mt-10 bg-white shadow-lg rounded-lg py-2 z-10 hidden lg:hidden flex flex-col">
+            <a href="index.html" class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i class="fa-solid fa-house"></i> Home</a>
 
-                    <nav id="mainNav"
-                        class="absolute top-14 w-full mt-10 bg-white shadow-lg rounded-lg py-2 z-10 hidden lg:hidden flex flex-col">
-                        <a href="#" class="text-lg font-semibold text-orange-600"><i class="fa-solid fa-file"></i> Rules to Follow</a>
+            <a href="#"
+              class="text-lg font-semibold text-orange-600"><i
+                class="fa-solid fa-file"></i> Rules to Follow</a>
 
-                        <a href="index.html"
-                            class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
-                                class="fa-solid fa-house"></i> Home</a>
+            <a href="tel:+919907753379"
+              class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
+                class="fa-solid fa-phone"></i> +91 9907753379</a>
 
-                        <a href="tel:+919907753379"
-                            class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
-                                class="fa-solid fa-phone"></i> +91 9907753379</a>
+            <a download="Anjani Homes Dev Ealiya" href="app-debug.apk"
+              class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
+                class="fa-solid fa-download"></i> Download App <i class="fa-brands fa-android"></i></a>
 
-                        <a href="payrent.html"
-                            class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
-                                class="fa-solid fa-indian-rupee-sign"></i> Pay Rent</a>
+            <a href="https://tenant-anjanihomes.great-site.net" target="_blank"
+              class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
+                class="fa-solid fa-globe"></i> Website</a>
+          </nav>
+          <!-- buttons - end -->
+        </header>
 
-                        <a download="Anjani Homes Dev Ealiya" href="app-debug.apk"
-                            class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
-                                class="fa-solid fa-download"></i> Download App <i class="fa-brands fa-android"></i></a>
+        <section
+          class="min-h-96 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-gray-100 py-16 shadow-lg md:py-20 xl:py-48">
+          <!-- image - start -->
+          <img src="Images/home.jpg" loading="lazy" alt="Home Sweet Home"
+            class="absolute inset-0 w-full object-cover object-center" />
+          <!-- image - end -->
 
-                        <a href="https://tenant-anjanihomes.great-site.net" target="_blank"
-                            class="text-lg font-semibold text-gray-900 transition duration-100 hover:text-orange-600"><i
-                                class="fa-solid fa-globe"></i> Website</a>
-                    </nav>
-                    <!-- buttons - end -->
-                </header>
+          <!-- overlay - start -->
+          <!-- <div class="absolute inset-0 bg-orange-500 mix-blend-multiply"></div> -->
+          <!-- overlay - end -->
 
-                <section
-                    class="min-h-96 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-gray-100 py-16 shadow-lg md:py-20 xl:py-48">
-                    <!-- image - start -->
-                    <img src="Images/home.jpg" loading="lazy" alt="Home Sweet Home"
-                        class="absolute inset-0 w-full object-cover object-center" />
-                    <!-- image - end -->
+        </section>
+      </div>
+    </div>
 
-                    <!-- overlay - start -->
-                    <!-- <div class="absolute inset-0 bg-orange-500 mix-blend-multiply"></div> -->
-                    <!-- overlay - end -->
 
-                </section>
-            </div>
+
+
+
+
+
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-10 py-8">
+
+    <!-- English -->
+    <h2 class="text-orange-600 text-center text-2xl md:text-3xl font-bold mb-8">
+        Rules to Follow
+    </h2>
+
+    <div class="space-y-4 text-black text-sm sm:text-base leading-7">
+
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>Only the number of people listed in the agreement are allowed to stay in the house. If any guests come, charges will have to be paid according to the agreement.</p>
         </div>
 
-
-        <div class="text-center">
-            <h2 class="text-orange-600 text-center text-2xl">Rules to Follow</h2>
-
-            <p class="mt-3 ml-7 mr-7"><i class="fa-solid fa-circle text-orange-600"></i>
-                Only the number of people listed in the agreement are allowed to stay in the house. If any guests come, charges will have to be paid according to the agreement.</p>
-            <p class="mt-3 ml-7 mr-7"><i class="fa-solid fa-circle text-orange-600"></i>
-                Please make sure to take your vehicle out of the porch before 8:00 a.m.. Do not wait for the maid to arrive.
-                </p>
-            <p class="mt-3 ml-7 mr-7"><i class="fa-solid fa-circle text-orange-600"></i>
-                When the porch floor is wet after mopping, avoid walking through it until it dries.
-                </p>
-            <p class="mt-3 ml-7 mr-7"><i class="fa-solid fa-circle text-orange-600"></i>
-                Do not leave the water tap open after filling the water bucket under any circumstances.
-                </p>
-            <p class="mt-3 ml-7 mr-7"><i class="fa-solid fa-circle text-orange-600"></i>
-                Consumption of alcohol, cigarettes, or non-vegetarian food is strictly prohibited.
-                </p>
-            <p class="mt-3 ml-7 mr-7"><i class="fa-solid fa-circle text-orange-600"></i>
-                Close all doors and cupboards gently.
-                </p>
-            <p class="mt-3 ml-7 mr-7"><i class="fa-solid fa-circle text-orange-600"></i>
-                Do not pluck flowers, leaves, or plants from the terrace.
-                </p>
-            <p class="mt-3 ml-7 mr-7"><i class="fa-solid fa-circle text-orange-600"></i>
-                Keeping any items or footwear in the porch is not allowed. If any item gets damaged or lost, the tenant will be responsible.
-                </p>
-            <p class="mt-3 ml-7 mr-7"><i class="fa-solid fa-circle text-orange-600"></i>
-                The tenant shall not engage in any kind of immoral or illegal activities in the building premises.
-                </p>
-
-
-            <h2 class="text-orange-600 text-center text-2xl mt-10">Rules to Follow (Hindi)</h2>
-
-            <p class="mt-3 ml-4 mr-4 "><i class="fa-solid fa-circle text-orange-600"></i>
-                जितने लोग एग्रीमेंट में लिखे हैं, उतने ही घर में रहेंगे। यदि गेस्ट आते हैं तो एग्रीमेंट के अनुसार अतिरिक्त चार्ज देना होगा।
-            </p>
-
-            <p class="mt-3 ml-4 mr-4 "><i class="fa-solid fa-circle text-orange-600"></i>
-                कृपया पोर्च से गाड़ी सुबह 8:00 बजे के पूर्व बाहर अवश्य ही निकाल दें। बाई के आने का इंतजार ना करें |
-            </p>
-
-            <p class="mt-3 ml-4 mr-4 "><i class="fa-solid fa-circle text-orange-600"></i>
-                मोटर के नल को पानी भरने के बाद किसी भी स्थिति में खुला ना छोड़े |
-            </p>
-
-            <p class="mt-3 ml-4 mr-4 "><i class="fa-solid fa-circle text-orange-600"></i>
-                शराब, सिगरेट या मांसाहार का सेवन सख्त मना है |
-            </p>
-
-            <p class="mt-3 ml-4 mr-4 "><i class="fa-solid fa-circle text-orange-600"></i>
-             घर या अलमारी के सभी गेटों को धीरे से लगाए |
-            </p>
-
-            <p class="mt-3 ml-4 mr-4 "><i class="fa-solid fa-circle text-orange-600"></i>
-                पोर्च में पोंछा  लगने के बाद जब पोर्च गीला हो तो कृपया आना-जाना उतने समय बंद रखें |
-            </p>
-            <p class="mt-3 ml-4 mr-4 "><i class="fa-solid fa-circle text-orange-600"></i>
-                छत पर लगे हुए फूल, पौधे या पत्तियाँ तोड़ना सख्त मना है।
-            </p>
-            <p class="mt-3 ml-4 mr-4 "><i class="fa-solid fa-circle text-orange-600"></i>
-                पोर्च में कोई भी सामान या चप्पल रखना मना है। यदि सामान को कुछ होता है, तो उसकी पूरी ज़िम्मेदारी किरायेदार की होगी।
-            </p>
-            <p class="mt-3 ml-4 mr-4 "><i class="fa-solid fa-circle text-orange-600"></i>
-                भवन परिसर में किसी भी प्रकार का अनैतिक गैरकानूनी कार्य किराएदार नहीं करेगा।
-            </p>
-
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>Please make sure to take your vehicle out of the porch before 8:00 a.m. Do not wait for the maid to arrive.</p>
         </div>
 
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>When the porch floor is wet after mopping, avoid walking through it until it dries.</p>
+        </div>
 
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>Do not leave the water tap open after filling the water bucket under any circumstances.</p>
+        </div>
 
-        <footer class="text-gray-600 body-font">
-            <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                    <img width="60rem" src="Images/logo-transparent.png" alt="logo-anjani-homes">
-                    <span class="text-xl font-bold text-black md:text-2xl">&nbsp; Anjani Homes</span></a>
-                <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
-                    <script>document.write("" + new Date().getFullYear(), "");</script> Anjani Homes | All rights
-                    reserved&nbsp;
-                </p>
-                <p>Powered By <a href="https://theuniversaldev.42web.io" class="text-orange-600 ml-1"
-                        target="_blank"><b>Dev Ealiya</b></a>
-                </p>
-            </div>
-        </footer>
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>Consumption of alcohol, cigarettes, or non-vegetarian food is strictly prohibited.</p>
+        </div>
 
-        <!-- Include the Tailwind CSS and your JavaScript file this for navigation-->
-        <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script>
-        <script src="script.js"></script>
-        <!-- <script>
-                // Add JavaScript for toggling the mobile menu
-                document.addEventListener('DOMContentLoaded', function () {
-                    var mobileMenuButton = document.getElementById('mobile-menu-button');
-                    var mobileMenu = document.getElementById('mobile-menu');
-            
-                    mobileMenuButton.addEventListener('click', function () {
-                        mobileMenu.classList.toggle('hidden');
-                    });
-                });
-            </script> -->
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>Close all doors and cupboards gently.</p>
+        </div>
 
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>Do not pluck flowers, leaves, or plants from the terrace.</p>
+        </div>
 
-        <!-- script for new menu navigation tailwind css -->
-        <script>
-            const menuButton = document.getElementById('menuButton');
-            const mainNav = document.getElementById('mainNav');
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>Keeping any items or footwear in the porch is not allowed. If any item gets damaged or lost, the tenant will be responsible.</p>
+        </div>
 
-            menuButton.addEventListener('click', function () {
-                mainNav.classList.toggle('hidden'); // Toggle the 'hidden' class on small screens
-            });
-        </script>
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>The tenant shall not engage in any kind of immoral or illegal activities in the building premises.</p>
+        </div>
 
     </div>
+
+    <!-- Hindi -->
+    <h2 class="text-orange-600 text-center text-2xl md:text-3xl font-bold mt-12 mb-8">
+        Rules to Follow (Hindi)
+    </h2>
+
+    <div class="space-y-4 text-black text-sm sm:text-base leading-8">
+
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>जितने लोग एग्रीमेंट में लिखे हैं, उतने ही घर में रहेंगे। यदि गेस्ट आते हैं तो एग्रीमेंट के अनुसार अतिरिक्त चार्ज देना होगा।</p>
+        </div>
+
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>कृपया पोर्च से गाड़ी सुबह 8:00 बजे के पूर्व बाहर अवश्य ही निकाल दें। बाई के आने का इंतजार ना करें।</p>
+        </div>
+
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>मोटर के नल को पानी भरने के बाद किसी भी स्थिति में खुला ना छोड़ें।</p>
+        </div>
+
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>शराब, सिगरेट या मांसाहार का सेवन सख्त मना है।</p>
+        </div>
+
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>घर या अलमारी के सभी गेटों को धीरे से लगाएँ।</p>
+        </div>
+
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>पोर्च में पोंछा लगने के बाद जब पोर्च गीला हो तो कृपया आना-जाना उतने समय बंद रखें।</p>
+        </div>
+
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>छत पर लगे हुए फूल, पौधे या पत्तियाँ तोड़ना सख्त मना है।</p>
+        </div>
+
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>पोर्च में कोई भी सामान या चप्पल रखना मना है। यदि सामान को कुछ होता है, तो उसकी पूरी ज़िम्मेदारी किरायेदार की होगी।</p>
+        </div>
+
+        <div class="flex items-start gap-3">
+            <i class="fa-solid fa-circle text-orange-600 text-[8px] mt-2"></i>
+            <p>भवन परिसर में किसी भी प्रकार का अनैतिक या गैरकानूनी कार्य किराएदार नहीं करेगा।</p>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+    <footer class="text-gray-600 body-font">
+      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <img width="60rem" src="Images/logo-transparent.png" alt="logo-anjani-homes">
+          <span class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent text-xl font-bold text-black md:text-2xl">&nbsp; Anjani Homes</span></a>
+        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+          <script>document.write("" + new Date().getFullYear(), "");</script> Anjani Homes | All rights
+          reserved&nbsp;
+        </p>
+        <p>Powered By <a href="https://theuniversaldev.42web.io" class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent" target="_blank"><b>Dev
+              Ealiya</b></a>
+        </p>
+      </div>
+    </footer>
+    
+    <!-- script for modal -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const modal = document.getElementById("welcomemodal");
+        const closemodalButton = document.getElementById("closemodal");
+
+        // Show the modal on page load
+        modal.style.display = "block";
+
+        // Close the modal when the close button is clicked
+        closemodalButton.addEventListener("click", function () {
+          modal.style.display = "none";
+        });
+
+        // Close the modal when the overlay is clicked
+        modal.addEventListener("click", function (event) {
+          if (event.target === modal) {
+            modal.style.display = "none";
+          }
+        });
+      });
+    </script>
+
+    <script src="script.js"></script>
+
+    <!-- script for new menu navigation tailwind css -->
+    <script>
+      const menuButton = document.getElementById('menuButton');
+      const mainNav = document.getElementById('mainNav');
+
+      menuButton.addEventListener('click', function () {
+        mainNav.classList.toggle('hidden'); // Toggle the 'hidden' class on small screens
+      });
+    </script>
+
+
+  </div>
 
 </body>
 

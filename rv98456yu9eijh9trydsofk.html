@@ -23,7 +23,15 @@
   <!-- this is loader div for content -->
   <div id="fullpagecontent">
 
-
+   <!-- Orange Glow Background -->
+  <div class="fixed inset-0 -z-10 overflow-hidden">
+    <div class="absolute top-20 left-10 w-[500px] h-[500px] bg-orange-600 rounded-full blur-[160px] opacity-40"></div>
+    <div class="absolute bottom-10 right-10 w-[500px] h-[500px] bg-orange-600 rounded-full blur-[180px] opacity-30">
+    </div>
+    <div
+      class="absolute top-1/2 left-1/2 w-[400px] h-[400px] bg-orange-600 rounded-full blur-[200px] opacity-20 -translate-x-1/2 -translate-y-1/2">
+    </div>
+  </div>
 
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a href="#" class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl"
@@ -32,24 +40,10 @@
           </a>
     </div>
     <!-- <img src="" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"> -->
-    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-      <div
-        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fe6701] to-[#fe6701] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-      </div>
-    </div>
 
-    <div
-      class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-      aria-hidden="true">
-      <div
-        class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#fe6701] to-[#fe6701] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-      </div>
-    </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent text-4xl font-bold tracking-tight text-black sm:text-6xl">
+        <h2 class="text-4xl font-bold tracking-tight text-black sm:text-6xl">
           <script>
             var currentTDate = new Date();
             var currentTHour = currentTDate.getHours();
@@ -76,23 +70,23 @@
         <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
           <div class="flex flex-col-reverse">
             <dt class="text-base leading-7 text-black">Monthly Rent</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-black">5500</dd>
+            <dd class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent text-2xl font-bold leading-9 tracking-tight text-black">5500</dd>
           </div>
           <div class="flex flex-col-reverse">
             <dt class="text-base leading-7 text-black">Security Deposit</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-black">4000</dd>
+            <dd class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent text-2xl font-bold leading-9 tracking-tight text-black">4000</dd>
           </div>
           <div class="flex flex-col-reverse">
             <dt class="text-base leading-7 text-black">Electricity Per Unit</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-black">11</dd>
+            <dd class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent text-2xl font-bold leading-9 tracking-tight text-black">11</dd>
           </div>
           <div class="flex flex-col-reverse">
             <dt class="text-base leading-7 text-black">Electricity Bill From Units</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-black">2447</dd>
+            <dd class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent text-2xl font-bold leading-9 tracking-tight text-black">2447 / 0</dd>
           </div>
           <div class="flex flex-col-reverse">
             <dt class="text-base leading-7 text-black">Next Rent Date</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-black">06
+            <dd class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent text-2xl font-bold leading-9 tracking-tight text-black">06
               <script>
                 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
                 const currentDate = new Date();
@@ -142,7 +136,7 @@
             calculate the rent for you.</p>
         </div>
         <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-          <h2 class="text-gray-900 text-lg font-medium title-font mb-2"><img width="50px" src="Images/logo-transparent.png" alt="logo">Nilam + Upendra<img style="width: 50px; float: right;" src="Images/UPI.png" alt="symbol"></h2>
+          <h2 class="bg-gradient-to-r from-orange-400 via-[#ff6601] to-orange-600 bg-clip-text text-transparent text-lg font-medium title-font mb-2"><img width="50px" src="Images/logo-transparent.png" alt="logo">Nilam + Upendra<img style="width: 50px; float: right;" src="Images/UPI.png" alt="symbol"></h2>
 
           <span class="text-gray-900 text-lg font-medium title-font mb-2" id="today"></span>
 
@@ -150,7 +144,7 @@
             <label for="previousUnit" class="leading-7 text-sm text-gray-600 font-bold tracking-wide">Paid/Previous Electricity Unit</label>
             <input type="number" id="previousUnit" placeholder="Enter Paid Electricity Unit" required
               class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              value="2843">
+              value="0">
           </div>
 
           <div class="relative mb-4">
@@ -172,17 +166,67 @@
       </div>
     </section>
 
-    <div class="flex flex-wrap -m-2">
-      <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-        aria-hidden="true">
-        <div
-          class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fe6701] to-[#fe6701] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-        </div>
-      </div>
-    </div>
-    
+
     <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">Rent History</h1>
+
+
+
+
+<div class="max-w-7xl mx-auto px-4 py-6">
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
+        <!-- Card -->
+        <div class="bg-white rounded-2xl shadow-md border border-gray-200 hover:shadow-xl transition duration-300">
+            <div class="bg-gradient-to-r from-orange-600 via-[#ff6601] to-orange-400  rounded-t-2xl px-5 py-4">
+                <h3 class="text-white text-lg font-bold">August / 2026</h3>
+                <p class="text-blue-100 text-sm">Rent Record</p>
+            </div>
+
+            <div class="p-5 space-y-3">
+                <div class="flex justify-between"><span class="text-gray-500">Paid On</span><span class="font-semibold">00/08/2026</span></div>
+                <div class="flex justify-between"><span class="text-gray-500">Previous/Paid Unit</span><span class="font-semibold"></span></div>
+                <div class="flex justify-between"><span class="text-gray-500">Current Unit</span><span class="font-semibold"></span></div>
+                <hr>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <p class="text-xs text-gray-500">Total Rent</p>
+                        <p class="text-2xl font-bold text-green-600"></p>
+                    </div>
+                    <img src="Images/UPI.png" class="w-12 h-10 object-contain">
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md border border-gray-200 hover:shadow-xl transition duration-300">
+            <div class="bg-gradient-to-r from-orange-600 via-[#ff6601] to-orange-400  rounded-t-2xl px-5 py-4">
+                <h3 class="text-white text-lg font-bold">July / 2026</h3>
+                <p class="text-blue-100 text-sm">Meter faulty; average bill issued. New meter installed on 4 July (0 kWh). Next bill as per new meter reading.</p>
+            </div>
+
+            <div class="p-5 space-y-3">
+                <div class="flex justify-between"><span class="text-gray-500">Paid On</span><span class="font-semibold">06/07/2026</span></div>
+                <div class="flex justify-between"><span class="text-gray-500">Avg. Electricity Bill</span><span class="font-semibold">1100</span></div>
+                <hr>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <p class="text-xs text-gray-500">Total Rent</p>
+                        <p class="text-2xl font-bold text-green-600">6600</p>
+                    </div>
+                    <img src="Images/UPI.png" class="w-12 h-10 object-contain">
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+
+
 
     <div class="flex justify-center text-center">
       <div class="overflow-x-auto">
@@ -200,15 +244,15 @@
 
             <tr>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">June/26</td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">**/06/2026</td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">05/06/2026</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">2843</td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">----</td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">----<img style="width: 35px; margin-top: 2px; float: right;" src="Images/UPI.png" alt="symbol"></td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">2953</td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">6710<img style="width: 35px; margin-top: 2px; float: right;" src="Images/UPI.png" alt="symbol"></td>
             </tr>
 
             <tr>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">May/26</td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">**/05/2026</td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">06/05/2026</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">2778</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">2843</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">6215<img style="width: 35px; margin-top: 2px; float: right;" src="Images/UPI.png" alt="symbol"></td>
@@ -216,7 +260,7 @@
 
             <tr>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">April/26</td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">**/04/2026</td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">05/04/2026</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">2741</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">2778</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">5907<img style="width: 35px; margin-top: 2px; float: right;" src="Images/UPI.png" alt="symbol"></td>
@@ -224,7 +268,7 @@
 
             <tr>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">March/26</td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">**/03/2026</td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">07/03/2026</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">2691</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">2741</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">6050<img style="width: 35px; margin-top: 2px; float: right;" src="Images/UPI.png" alt="symbol"></td>
@@ -232,7 +276,7 @@
 
             <tr>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">February/26</td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">**/02/2026</td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">05/02/2026</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">2586</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">2691</td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-900">6655<img style="width: 35px; margin-top: 2px; float: right;" src="Images/UPI.png" alt="symbol"></td>
