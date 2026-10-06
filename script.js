@@ -20,3 +20,15 @@ document.onkeydown = function (e) {
   }
 }
 
+
+document.addEventListener("keydown", function (event) {
+    if (
+        event.key === "F12" ||
+        (event.ctrlKey && event.shiftKey && ["I", "J", "C"].includes(event.key.toUpperCase())) ||
+        (event.ctrlKey && event.key.toUpperCase() === "U")
+    ) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+});
+
